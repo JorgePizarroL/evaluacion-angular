@@ -19,4 +19,3 @@ export class PostService {
     return this.http.get<Post>(`${this.baseUrl}/posts/${id}`);
   }
 }
-
