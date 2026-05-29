@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1a3a2a;
+  --color-accent: #4ade80;
+  --color-surface: #f8faf9;
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-surface);
+  color: #1a1a1a;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+}
